@@ -1,0 +1,13 @@
+.app {
+    display: grid;
+    grid-template-areas: 
+    "h"
+    "c";
+    grid-template-rows: 110px 1fr;
+    grid-template-columns: 1fr;
+}
+.content {
+    grid-area: c;
+    width: 100%;
+    height: calc(100% - 110px);
+}

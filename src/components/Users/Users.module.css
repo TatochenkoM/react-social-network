@@ -1,0 +1,32 @@
+.userBlock {
+    display: flex;
+    flex-direction: column;
+}
+.userInfo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin: 25px;
+}
+.leftColumn {
+    display: flex;
+}
+.avatar {
+    width: 100px;
+}
+.avatar img {
+    width: 100px;
+}
+.pageNumberList{
+    display: flex;
+    list-style: none;
+    max-width: 250px;
+    overflow: auto;
+}
+.pageNumberList li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.selected {
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.createPost textarea {
+    resize: none; 
+    width: calc(100% - 50px);
+}
+.newPosts {
+    width: 100%;
+}
+.createPost {
+    width: 100%;
+    text-align: center;
+}
+.createBtn {
+    text-align: end;
+}
+.btn {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #37f14d inset, 0 0 0 0 #37f14d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    border: none;
+}
+.btn:hover {
+    box-shadow: 0 0 10px 0 #37f14d inset, 0 0 10px 4px #37f14d;
+    color: #37f14d;
+  }
+  

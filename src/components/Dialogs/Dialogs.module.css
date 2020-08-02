@@ -1,0 +1,54 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.dialog, .messages {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.dialog {
+    align-items: center;
+    border: black 2px solid;
+    border-right: none;
+    padding-bottom: 50px;
+}
+.messages {
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border: black 2px solid;
+}
+.btn {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #37f14d inset, 0 0 0 0 #37f14d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    border: none;
+}
+.btn:hover {
+    box-shadow: 0 0 10px 0 #37f14d inset, 0 0 10px 4px #37f14d;
+    color: #37f14d;
+  }
+.createBtn {
+    width: 100%;
+    text-align: end;
+}
+.createMessage {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.createMessage textarea {
+    resize: none; 
+    width: calc(100% - 50px);
+}

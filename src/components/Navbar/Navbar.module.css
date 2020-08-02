@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+}
+.item {
+    padding: 10px;
+    list-style: none;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
